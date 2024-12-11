@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+
+    <form>
+        <article>
+            <label for="range">Luftqualität</label>
+            <p class="air-quality-output"></p>
+        </article>
+        
+        <input onclick="checkAirQuality()" type="range" id="range" min="0" max="150" steps="10">
+        <div class="health-concern"></div>
+    </form>
+    
+</body>
+</html>
